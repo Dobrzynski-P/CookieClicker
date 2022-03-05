@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d9cab2"
+    tools:context=".Save">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="138dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#E60037FF"
+                    android:textSize="30dp"
+                    android:text="Stats:"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/Cookdsadsdsaies"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cookies:"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#E60037FF"
+                    android:textSize="17dp"/>
+
+                <TextView
+                    android:id="@+id/textViewCookies"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#E60037FF"
+                    android:textSize="17dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView7657657"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cookies per click"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#E60037FF"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textViewClickData"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#E60037FF"
+                    android:textSize="17dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView867658"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Grannies: "
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#E60037FF"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textViewGranniesData"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#E60037FF"
+                    android:textSize="17dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView878"
+                    android:layout_width="211dp"
+                    android:layout_height="wrap_content"
+                    android:text="Bakeries: "
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#E60037FF"
+                    android:textSize="17dp"
+                    />
+
+                <TextView
+                    android:id="@+id/textViewBakieresData"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#E60037FF"
+                    android:textSize="17dp" />
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:backgroundTint="#4C1212"/>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

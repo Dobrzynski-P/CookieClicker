@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d9cab2"
+    tools:context=".Shop">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView43242"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="sans-serif-black"
+
+                    android:text="Shop"
+                    android:textColor="#E60037FF"
+                    android:textSize="30dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Cookies: "
+                    android:textColor="#E60037FF"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/TextViewCookies"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#E60037FF"
+                    android:textSize="17dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/ButtonUpgClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Uprgrade click"
+                    android:backgroundTint="#4C1212"/>
+
+                <TextView
+                    android:id="@+id/textView432432"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price: "
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#E60037FF"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/TextViewClickPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#E60037FF"
+                    android:textSize="17dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/ButtonGranny"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Granny"
+                    android:backgroundTint="#4C1212"/>
+
+                <TextView
+                    android:id="@+id/textView34322"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price: "
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#E60037FF"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/TextViewPriceGranny"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#E60037FF"
+                    android:textSize="17dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/ButtonBakery"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Bakery"
+                    android:backgroundTint="#4C1212"/>
+
+                <TextView
+                    android:id="@+id/textView3562363"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price: "
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#E60037FF"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/TextViewPriceBakery"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#E60037FF"
+                    android:textSize="17dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+        </TableLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

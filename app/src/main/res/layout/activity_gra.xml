@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d9cab2"
+    tools:context=".Game">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+
+                    android:text="Cookies:"
+                    android:textColor="#E60037FF"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/TextViewCookieNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#E60037FF"
+                    android:textSize="30dp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cookies per click: "
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#E60037FF"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/TextViewClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#E60037FF"
+                    android:textSize="17dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Passive cookies: "
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#E60037FF"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textViewPassive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#E60037FF"
+                    android:textSize="17dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+            </TableRow>
+        </TableLayout>
+
+        <ImageButton
+            android:id="@+id/imageButtonCookie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/cookie"
+
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonShop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#4C1212"
+
+                android:text="Shop" />
+
+            <Button
+                android:id="@+id/buttonSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#4C1212"
+                android:text="Save" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
